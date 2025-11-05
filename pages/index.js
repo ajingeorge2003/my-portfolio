@@ -81,7 +81,7 @@ const Home = () => {
       <Head>
         <title>{personalInfo.name} - Portfolio</title>
         <meta name="description" content={personalInfo.title} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </Head>
       
       <motion.div 

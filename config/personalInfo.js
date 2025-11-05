@@ -21,7 +21,7 @@ export const personalInfo = {
 
   // Images - Place your images in public/images/ directory
   images: {
-    profile: "/images/ajin-profile.jpg", // Your professional headshot - REPLACE WITH YOUR PHOTO
+    profile: "/images/ajin-profile.JPG", // Your professional headshot - REPLACE WITH YOUR PHOTO
     hero: "/images/hero-bg.jpg", // Background image for hero section (optional)
     about: "/images/ajin-about.jpg", // Image for about section (optional, can be different from profile)
   },
