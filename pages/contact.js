@@ -73,9 +73,9 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="section-title">Let's Connect</h1>
+            <h1 className="section-title">Let&apos;s Connect</h1>
             <p className="text-center text-muted mb-5" style={{ fontSize: '1.2rem' }}>
-              I'm always excited to discuss new opportunities, innovative projects, 
+              I&apos;m always excited to discuss new opportunities, innovative projects, 
               and potential collaborations. Feel free to reach out!
             </p>
           </motion.div>
@@ -218,7 +218,7 @@ const Contact = () => {
                   <div className="mt-4 p-3 bg-light rounded">
                     <h6 className="mb-2">Quick Response</h6>
                     <p className="small mb-0 text-muted">
-                      I'm usually online between 9 AM - 6 PM EST. 
+                      I&apos;m usually online between 9 AM - 6 PM EST. 
                       For urgent matters, feel free to call or text!
                     </p>
                   </div>
@@ -236,7 +236,7 @@ const Contact = () => {
           >
             <h3 className="mb-3">Ready to Start Your Project?</h3>
             <p className="text-muted mb-4">
-              Let's discuss how we can bring your ideas to life with cutting-edge technology.
+              Let&apos;s discuss how we can bring your ideas to life with cutting-edge technology.
             </p>
             <div className="d-flex justify-content-center gap-3 flex-wrap">
               <a href={`mailto:${personalInfo.contact.email}?subject=Project Inquiry`} className="btn-custom">

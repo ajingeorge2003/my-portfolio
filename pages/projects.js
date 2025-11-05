@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { personalInfo } from "../config/personalInfo";
@@ -131,10 +132,10 @@ const Projects = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <h3 className="mb-3">Interested in Working Together?</h3>
-            <p className="text-muted mb-4">I'm always open to discussing new projects and opportunities.</p>
-            <a href="/contact" className="btn-custom">
-              Let's Talk
-            </a>
+            <p className="text-muted mb-4">I&apos;m always open to discussing new projects and opportunities.</p>
+            <Link href="/contact" className="btn-custom">
+              Let&apos;s Talk
+            </Link>
           </motion.div>
         </div>
       </div>
