@@ -10,6 +10,7 @@ const About = () => {
       <Head>
         <title>{`About - ${personalInfo.name}`}</title>
         <meta name="description" content={`Learn more about ${personalInfo.name} - ${personalInfo.title}`} />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </Head>
       
       <div className="section-container" style={{ paddingTop: '120px' }}>

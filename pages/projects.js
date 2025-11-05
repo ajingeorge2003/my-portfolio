@@ -18,6 +18,7 @@ const Projects = () => {
       <Head>
         <title>{`Projects - ${personalInfo.name}`}</title>
         <meta name="description" content={`Explore the recent projects by ${personalInfo.name} including mobile apps, AI solutions, and drone technology`} />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </Head>
       
       <div className="section-container" style={{ paddingTop: '120px' }}>

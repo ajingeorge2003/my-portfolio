@@ -64,6 +64,7 @@ const Contact = () => {
       <Head>
         <title>{`Contact - ${personalInfo.name}`}</title>
         <meta name="description" content={`Get in touch with ${personalInfo.name} for collaborations and opportunities`} />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </Head>
       
       <div className="section-container" style={{ paddingTop: '120px' }}>
